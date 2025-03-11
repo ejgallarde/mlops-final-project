@@ -24,7 +24,7 @@ app = FastAPI()
 
 
 class InputData(BaseModel):
-    data: list[list[float]]  # Ensures the input is a list of lists of floats
+    data: list[list[float]]
 
 
 class PredictionResponse(BaseModel):
